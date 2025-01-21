@@ -11,6 +11,16 @@ const LandingPage = () => {
       <div className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
+            {/* Replace this URL with your logo URL when ready */}
+            {/* <img 
+              src="../logoo.png" 
+              alt="Ayodhya Deals" 
+              className="h-24 mx-auto mb-8 bg-gradient-to-r from-blue-500 to-purple-600 text-transparent rounded-lg"
+              onError={(e) => {
+                e.currentTarget.onerror = null;
+                e.currentTarget.src = 'https://placehold.co/400x160/1e293b/white?text=Ayodhya+Deals';
+              }}
+            /> */}
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
               Discover Amazing Deals
             </h1>
@@ -27,6 +37,36 @@ const LandingPage = () => {
               </span>
               <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-blue-400 to-purple-400 opacity-0 group-hover:opacity-20 blur-xl transition-all duration-300" />
             </button>
+          </div>
+        </div>
+
+        {/* Video Section */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
+            <div className="aspect-w-16 aspect-h-9">
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover"
+              >
+                <source
+                  src="https://videos.pexels.com/video-files/6994619/6994619-uhd_2560_1440_30fps.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            {/* Overlay with gradient */}
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent">
+              <div className="absolute bottom-0 left-0 right-0 p-8">
+                <h2 className="text-3xl font-bold mb-4 text-white">Experience Shopping Like Never Before</h2>
+                <p className="text-gray-200 text-lg max-w-2xl">
+                  Discover a world of premium products, amazing deals, and exceptional service at Ayodhya Deals.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
