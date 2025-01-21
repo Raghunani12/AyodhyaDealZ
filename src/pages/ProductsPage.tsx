@@ -166,6 +166,7 @@ const products = [
     image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=500',
   },
 
+
   // Home Essentials Category
   {
     id: 21,
@@ -254,6 +255,22 @@ const products = [
     price: 299,
     rating: 4.2,
     image:'../src/images/home/Coffe_cup.jpg'
+  },
+  {
+    id: 32,
+    name : 'Tablet',
+    category: 'Electronics',
+    price: 14999,
+    rating: 4.5,
+    image: '../src/images/electronics/pad.png'
+  },
+  {
+    id:33,
+    name:'necklace',
+    category:'Fashion',
+    price: 999,
+    rating: 4.5,
+    image:'../src/images/fashion/necklace.png'
   }
 ];
 
