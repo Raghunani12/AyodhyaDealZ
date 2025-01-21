@@ -271,6 +271,14 @@ const products = [
     price: 999,
     rating: 4.5,
     image:'images/fashion/necklace.png'
+  },
+  {
+    id:34,
+    name:'watch-Hemanth',
+    category:'Fashion',
+    price:999,
+    rating:4.9,
+    image:'images/fashion/watch.png'
   }
 ];
 
