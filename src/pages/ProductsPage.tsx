@@ -271,14 +271,6 @@ const products = [
     price: 999,
     rating: 4.5,
     image:'images/fashion/necklace.png'
-  },
-  {
-    id:34,
-    name:'watch',
-    category:'Fashion',
-    price: 1999,
-    rating: 4.5,
-    image:'images/fashion/watch.png'
   }
 ];
 
