@@ -254,7 +254,7 @@ const products = [
     category: 'Home Essentials',
     price: 299,
     rating: 4.2,
-    image:'../src/images/home/Coffe_cup.jpg'
+    image:'/images/home/Coffe_cup.jpg'
   },
   {
     id: 32,
@@ -262,7 +262,7 @@ const products = [
     category: 'Electronics',
     price: 14999,
     rating: 4.5,
-    image: '../src/images/electronics/pad.png'
+    image: '/images/electronics/pad.png'
   },
   {
     id:33,
@@ -270,7 +270,7 @@ const products = [
     category:'Fashion',
     price: 999,
     rating: 4.5,
-    image:'../src/images/fashion/necklace.png'
+    image:'images/fashion/necklace.png'
   }
 ];
 
