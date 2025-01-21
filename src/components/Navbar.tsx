@@ -13,7 +13,7 @@ const Navbar = () => {
               src="../logoo.png" 
               alt="Ayodhya Deals" 
               /* making logo transperent and changing the colour to its background synchronized colour */
-              className="h-10 bg-gradient-to-r from-blue-500 to-purple-600 text-transparent rounded-lg "
+              className="h-12 bg-gradient-to-r from-black-500 to-blue-600 to-purple-600 text-transparent rounded-lg "
               onError={(e) => {
                 e.currentTarget.onerror = null;
                 e.currentTarget.src = 'https://placehold.co/200x80/1e293b/white?text=Ayodhya+Deals';
@@ -35,7 +35,7 @@ const Navbar = () => {
             
             <Link 
               to="/products"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 transition-all"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-black-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 transition-all"
             >
               <ShoppingBag className="w-4 h-4" />
               <span>Shop</span>
