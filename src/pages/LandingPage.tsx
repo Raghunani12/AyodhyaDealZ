@@ -58,15 +58,15 @@ const LandingPage = () => {
                 Your browser does not support the video tag.
               </video>
             </div>
-            {/* Overlay with gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent">
+            {/* Overlay with gradient-for all devices responsive  */}
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent">
               <div className="absolute bottom-0 left-0 right-0 p-8">
                 <h2 className="text-3xl font-bold mb-4 text-white">Experience Shopping Like Never Before</h2>
                 <p className="text-gray-200 text-lg max-w-2xl">
                   Discover a world of premium products, amazing deals, and exceptional service at Ayodhya Deals.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
