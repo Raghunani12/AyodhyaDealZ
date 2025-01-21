@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100;
+  }
+}
+
+@layer utilities {
+  .glow {
+    box-shadow: 0 0 15px theme('colors.blue.500/50');
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 10px theme('colors.blue.500/50');
+  }
+}
